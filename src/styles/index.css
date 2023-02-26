@@ -4,31 +4,69 @@
 
 #root {
   /* margin: 0 auto; */
-  text-align: center;
+  /* text-align: center; */
+  --transition: all 500ms ease;
 }
 
+@layer components {
+  /* .h0 {
+    @apply font-sans text-3xl font-bold md:text-5xl;
+  } */
+  
+  h1,
+  .cstmh1 {
+    @apply font-sans text-3xl font-bold md:text-5xl;
+    
+  }
+  
+  h2,
+  .cstmh2 {
+    @apply font-sans text-2xl font-bold md:text-4xl;
+    
+  }
+  
+  h3,
+  .cstmh3 {
+    @apply font-sans text-xl font-bold md:text-3xl;
+    
+  }
+  
+  h4,
+  .cstmh4 {
+    @apply font-sans text-lg font-bold md:text-2xl;
+  }
+  
+  body,
+  .cstmp1 {
+    @apply font-sans text-base md:text-lg;
+  }
+  body,
+  .cstmp2 {
+    @apply font-sans text-sm md:text-base;
+  }
+}
 
-.Hero {
-  /* background-image: url("/public/HeroBg.png"); */
+/* .Hero {
+  background-image: url("/public/HeroBg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   width: 100vw;
-}
+} */
 
 /* below or equal to 600px */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .Hero {
     background-image: url('bgsmallscreen.png');
   }
-}
+} */
 /* above or equal to 600px */
-@media only screen and (min-width: 601px) {
+/* @media only screen and (min-width: 601px) {
   .Hero {
     background-image: url('bgbigscreen.png');
   }
-}
+} */
 
   /* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
@@ -111,3 +149,5 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+/* GENERAL CONTAINER CLASS */
