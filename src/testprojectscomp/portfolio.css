@@ -1,13 +1,13 @@
-button.btn.cat__btn.primary {
+/* button.btn.cat__btn.primary {
     background-color: blue;
-}
+} */
 
-.portfolio__categories {
+/* .portfolio__categories {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
     flex-wrap: wrap;
-}
+} */
 
 .btn.cat__btn {
     text-transform: capitalize;
@@ -19,13 +19,13 @@ button.btn.cat__btn.primary {
 } */
 
 
-.portfolio__projects {
+/* .portfolio__projects {
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
     align-items: start;
-}
+} */
 
 /* .card.portfolio__project {
     animation: animateProject 800ms ease-in forwards;
@@ -40,7 +40,7 @@ button.btn.cat__btn.primary {
     }
 }
 
-.portfolio__project-image {
+/* .portfolio__project-image {
     width: 100%;
     height: fit-content;
     min-height: 7rem;
@@ -49,7 +49,7 @@ button.btn.cat__btn.primary {
     border-radius: var(--border-radius-2);
     margin-bottom: 1.5rem;
     overflow: hidden;
-}
+} */
 
 .portfolio__project p {
     margin: 0.5rem 0 2rem;
@@ -57,31 +57,31 @@ button.btn.cat__btn.primary {
 
 .portfolio__project-cta {
     display: flex;
-    gap: 1rem;
+    /* gap: 1rem; */
 }
 
-.portfolio__project:hover .btn.sm {
+/* .portfolio__project:hover .btn.sm {
     border-color: var(--color-white);
-}
+} */
 
-.portfolio__project:hover .btn.sm.primary {
+/* .portfolio__project:hover .btn.sm.primary {
     background: transparent;
     color: var(--color-primary);
     border-color: var(--color-primary);
-}
+} */
 
 
 /* MEDIA QUERIES (tablets) */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .portfolio__projects {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
-}
+} */
 
 
 /* MEDIA QUERIES (phones) */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .portfolio__categories {
         gap: 0.6rem;
     }
@@ -94,4 +94,4 @@ button.btn.cat__btn.primary {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
-}
+} */

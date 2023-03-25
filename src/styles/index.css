@@ -12,30 +12,23 @@
   /* .h0 {
     @apply font-sans text-3xl font-bold md:text-5xl;
   } */
-  
-  h1,
-  .cstmh1 {
+
+  h1 {
     @apply font-sans text-3xl font-bold md:text-5xl;
-    
   }
-  
-  h2,
-  .cstmh2 {
+
+  h2 {
     @apply font-sans text-2xl font-bold md:text-4xl;
-    
   }
-  
-  h3,
-  .cstmh3 {
+
+  h3 {
     @apply font-sans text-xl font-bold md:text-3xl;
-    
   }
-  
-  h4,
-  .cstmh4 {
+
+  h4 {
     @apply font-sans text-lg font-bold md:text-2xl;
   }
-  
+
   body,
   .cstmp1 {
     @apply font-sans text-base md:text-lg;
@@ -44,6 +37,43 @@
   .cstmp2 {
     @apply font-sans text-sm md:text-base;
   }
+  /* .btn {
+    @apply bg-orange-700 font-bold py-2 px-4 rounded-full;
+  }
+  .btn-blue {
+    @apply bg-blue-500 text-white;
+  }
+  .btn:hover {
+    @apply bg-red-700;
+  } */
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+  .btn-secondary {
+    @apply py-2 px-4 bg-gray-500 hover:border-red-500 rounded-lg shadow-md;
+  }
+  /* }
+  .btn-secondary {
+    @apply border-4 border-gray-500 hover:border-blue-500 hover:bg-blue-400 hover:text-blue-50 rounded py-3 px-4 transition duration-1000;
+  } */
+  .btn {
+    @apply border-4 bg-cyan-500 border-gray-500 rounded py-3 px-4 transition duration-500 transform
+    hover:bg-cyan-600;
+  }
+  .navSpan {
+    @apply w-8 h-1 mb-1 block relative origin-top-left duration-1000;
+  }
+  /* .btn {
+    @apply border-4 border-red-400 rounded py-3 px-4 transition duration-500 transform
+    hover:-translate-y-1 hover:scale-110 scale-100;
+  } */
+
+  /* navbar */
+  .navComponent a {
+    @apply border-b-4 border-[#a9a9a9];
+  }
+
+
 }
 
 /* .Hero {
@@ -68,12 +98,10 @@
   }
 } */
 
-  /* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 
   @import url('https://fonts.googleapis.com/css2?family=Explora&display=swap'); */
-
-
 
 /* .fontLato {
   font-family: 'Lato', sans-serif;
@@ -151,3 +179,9 @@ button:focus-visible {
 } */
 
 /* GENERAL CONTAINER CLASS */
+
+/* .container {
+  width: var(--container-width-lg);
+  margin-inline: auto;
+  max-width: 1920px;
+} */

@@ -471,3 +471,7 @@ img {
   }
 
   /* working */
+
+      /* <Card className="portfolio__project w-32 h-32 bg-red-500 transition-opacity delay-1000" handleClick={handleClick}>
+    <Card className="portfolio__project w-32 h-32 bg-red-500 transform transition-all duration-1000 ease-in scale-100 " handleClick={handleClick}>
+    <Card className="portfolio__project transition-opacity delay-1000 bg-green-500 ease-in-out" style={{ animationFillMode: 'forwards' }} handleClick={handleClick}> */

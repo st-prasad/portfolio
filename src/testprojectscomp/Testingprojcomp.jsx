@@ -1,15 +1,15 @@
 import { useState } from 'react'
 // import projects from '../ProjectData.js'
-import Projectstempdata from '../ProjectData.js'
+import { projectstempdata } from '../ProjectData'
 import './portfolio.css'
 import Projects from './Projects'
 import ProjectsCategories from './ProjectsCategories'
 
 const Portfolio = () => {
-  const [projects, setProjects] = useState(Projectstempdata);
+  const [projects, setProjects] = useState(projectstempdata);
 
-//   a new array of categories from Projectstempdata
-  const categoryLabels = Projectstempdata.map(item => item.category);
+//   a new array of categories from projectstempdata
+  const categoryLabels = projectstempdata.map(item => item.category);
   console.log("category labels - " + categoryLabels)
 
 
@@ -24,14 +24,14 @@ const Portfolio = () => {
   const filteredProjectsSetter = (categoryLabel) => {
     
     if(categoryLabel === "all") {
-      setProjects(Projectstempdata);
+      setProjects(projectstempdata);
       return;
     }
 
     // The filter() method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
 
-    const filteredProjects = Projectstempdata.filter(items => items.category === categoryLabel);
-    // const filterProjects = Projectstempdata.filter(project => project.category === category);
+    const filteredProjects = projectstempdata.filter(items => items.category === categoryLabel);
+    // const filterProjects = projectstempdata.filter(project => project.category === category);
     setProjects(filteredProjects);
     console.log("filteredProjects from handler -"+ filteredProjects)
     console.log("clicked categoryLabel -"+ categoryLabel)
@@ -39,12 +39,12 @@ const Portfolio = () => {
   
 
   return (
-    <section id="portfolio" className='bg-indigo-500 h-screen'>
+    <section id="portfolio" className='bg-[#edebf8]'>
       <h2>Recent Projects</h2>
       <p>
       Check out some of the projects I recently worked on for my clients. Use the buttons to toggle the different categories.
       </p>
-      <div className="container portfolio__container">
+      <div className="container portfolio__container my-0 mx-auto">
         <ProjectsCategories uniqueCategoryLabelsArray={uniqueCategoryLabelsArray} onFilterProjectsSetter={filteredProjectsSetter} />
         {/* <ProjectsCategories categories={uniqueCategoriesArray} onFilterProjects={filterProjectsHandler}/> */}
         <Projects projects={projects}/>

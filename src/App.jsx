@@ -6,6 +6,7 @@ import Contact from './Components/Contact'
 import Description from './Components/HeroPage'
 import Navbar from './Components/Navbar'
 import Projects from './Components/Projects'
+import Skills from './Components/Skills'
 // import SkillBars from './Components/Skillbars'
 import About from './Components/testing'
 // import Tempbutton from './testprojectscomp/ProjectsCategories'
@@ -32,6 +33,7 @@ function App() {
       {/* <Card/> */}
       <Testingprojcomp/>
       <Contact />
+      <Skills />
     </div>
   )
 }
