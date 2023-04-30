@@ -20,7 +20,8 @@ const Project = ({project}) => {
 //   </div>
 // </Card>
 
-    <Card className="w-[40%] lg:w-[23%] mx-[5%] mb-4 portfolio__project animate-fade-in duration-500 flex flex-col justify-between shadow-xl" handleClick={handleClick}>
+    // <Card className="w-[60vw] md:w-[40vw] lg:w-[20vw] mx-[5vw] mb-4 portfolio__project animate-fade-in duration-500 flex flex-col justify-between shadow-xl" handleClick={handleClick}>
+    <Card className="w-[40%] lg:w-[20%] mx-[5%] mb-4 portfolio__project animate-fade-in duration-500 flex flex-col justify-between shadow-xl" handleClick={handleClick}>
     {/* <Card className="portfolio__project transition ease duration-500" handleClick={handleClick}> */}
     {/* <Card className="portfolio__project animate-scale-in" handleClick={handleClick}> */}
         <div className="portfolio__project-image">
@@ -29,7 +30,7 @@ const Project = ({project}) => {
         </div>
         <h4 className='h-16'>{project.title}</h4>
         <p className='max-h-24 overflow-y-auto h-14 border-4 border-[#f0fff0]'>{project.desc}</p>
-        <div className="flex gap-[3vw] justify-center">
+        <div className="flex gap-[3%] justify-center">
             <a href={project.demo} className="btn" target="_blank" rel="noopner noreferrer">Demo</a>
             <a href={project.github} className="btn" target="_blank" rel="noopner noreferrer">Gitbub</a>
         </div>

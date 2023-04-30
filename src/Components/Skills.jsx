@@ -12,8 +12,11 @@ const Skills = () => {
   return (
     <motion.div
       className="flex relative flex-col text-center h-[50vh] mx-auto items-center"
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
+      initial={{
+        x: -200,
+        opacity: 0,
+      }}
+      whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 1.5 }}
     >
       <div className="flex-grow-[2]">

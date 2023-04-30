@@ -44,7 +44,8 @@ const Portfolio = () => {
       <p>
       Check out some of the projects I recently worked on for my clients. Use the buttons to toggle the different categories.
       </p>
-      <div className="container portfolio__container my-0 mx-auto">
+      {/* <div className="container portfolio__container my-0 mx-auto"> */}
+      <div className="w-full portfolio__container my-0 mx-auto">
         <ProjectsCategories uniqueCategoryLabelsArray={uniqueCategoryLabelsArray} onFilterProjectsSetter={filteredProjectsSetter} />
         {/* <ProjectsCategories categories={uniqueCategoriesArray} onFilterProjects={filterProjectsHandler}/> */}
         <Projects projects={projects}/>

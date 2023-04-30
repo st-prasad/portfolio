@@ -1,4 +1,5 @@
 import React from "react";
+// import Blob from "./Blob";
 
 function HeroPage() {
   return (
@@ -6,8 +7,9 @@ function HeroPage() {
     // <div className="Hero z-30 w-full h-screen top-0 relative bg-[#f8f4eb]">
     <div className="Hero z-30 w-full h-screen bg-[#f8f4eb] flex">
       {/* <div className="heroContainer my-0 mx-auto top-0 bottom-0 absolute flex flex-row items-center justify-between"> */}
-      <div className="heroContainer mx-auto flex flex-row items-center justify-between h-[70%] self-center">
-        <div className="HeroText top-48 flex flex-col left-5 ml-5 bg-[#f6f8eb] border-2 border-solid border-[#D4D5D4] animate-border-radius p-[10px]">
+      <div className="heroContainer mx-auto flex flex-row items-center justify-between h-[70%] self-center w-10/12">
+        {/* border view on hover: <div className="border-4 hover:border-dotted border-transparent hover:border-[#ad98d8] animate-border-radius"> */}
+        <div className="HeroText top-48 flex flex-col ml-5 bg-[#f6f8eb] border-4 hover:border-dotted border-[#ad98d8] animate-border-radius p-[10px]">
 
           <h1
             className="mb-1 md:mb-3 font-bold text-black-500 font-georgia"
@@ -16,9 +18,9 @@ function HeroPage() {
             Hello, and welcome!
           </h1>
           <p className="w-auto lg:w-96 p-1 md:p-3 font-georgia mb-3 text-base font-bold md:text-2xl">
-            <span className="underline decoration-[#b85118]">
+            <span className="underline decoration-[#b85118] text-2xl">
               I'm Tharindu Prasad,
-            </span>{" "}
+            </span>
             <br />a full-stack developer and content creator with a passion for
             creating user-friendly, innovative and functional web applications..
           </p>

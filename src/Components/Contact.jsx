@@ -16,17 +16,17 @@ const Contact = () => {
     // e.preventDefault();
 
     try {
-      await emailjs.sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+      const response = await emailjs.sendForm(
+        "service_93tactb",
+        "template_ez54ak9",
         form.current,
-        "YOUR_USER_ID/pub key"
+        "OJEat3txWvOC0nOVI"
       );
-      console.log("Email sent successfully!", response.status, response.text);
-      console.log(e.target);
+      alert("Email sent successfully!", response.status, response.text);
+      // console.log(e.target);
       console.log(form.current);
     } catch (error) {
-      console.error("Error sending email:", error);
+      alert("Error sending email:", error);
     }
     reset();
   };
@@ -116,7 +116,7 @@ const Contact = () => {
             type="text"
             placeholder="enter message"
             className="w-full"
-            {...register("messageBox", { required: "true", maxLength: 100 })}
+            {...register("messageBox", { required: true, maxLength: 100 })}
           ></textarea>
           {errors.messageBox && errors.messageBox.type === "required" && (
           <span className="messageError mx-0 cstmp1 text-amber-400">

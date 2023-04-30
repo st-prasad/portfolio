@@ -1,4 +1,8 @@
-import { FaReact } from 'react-icons/fa';
+// import { FaReact } from 'react-icons/fa';
+import { FaBootstrap, FaCss3, FaDatabase, FaGithub, FaJava, FaNodeJs, FaPython, FaReact } from "react-icons/fa";
+import { SiCanva, SiCsharp, SiFramer, SiJavascript, SiMicrosoftazure, SiSvelte, SiTailwindcss, SiTypescript } from 'react-icons/si';
+import { TbBrandNextjs } from 'react-icons/tb';
+
 
 
 import image1 from "/src/assets/srcavatar.png";
@@ -110,36 +114,122 @@ export const projectstempdata = [
 
 export const skillsArray = [
   {
+    name: 'css',
+    image: "images/download.jpg",
+    level: 80,
+    icon: FaCss3,
+  },
+  {
     name: 'react',
     // ** got error here - icon: <FaReact/>,
     // Uncaught SyntaxError: Unexpected token '<' error 
     // was because Using jsx on a non-jsx file, renaming file name to .jsx fixed it
-    icon: FaReact,
     // icon: FaMusic,
-    image: "/images/vite.svg",
+    // image: "/images/vite.svg",
+    level: 65,
+    icon: FaReact,
+  },
+  {
+    name: 'next.js',
+    // ** got error here - icon: <FaReact/>,
+    // Uncaught SyntaxError: Unexpected token '<' error 
+    // was because Using jsx on a non-jsx file, renaming file name to .jsx fixed it
+    // icon: FaMusic,
+    // image: "/images/vite.svg",
+    level: 65,
+    icon: TbBrandNextjs,
+  },
+  {
+    name: 'Svelte',
+    image: "images/download.jpg",
+    level: 40,
+    icon: SiSvelte,
+  },
+  // {
+  //   name: 'Next.js',
+  //   image: "images/download.jpg",
+  //   level: 70,
+  //   icon: SiNextDotJs,
+  // },
+  {
+    name: 'Tailwind',
+    image: "images/download.jpg",
     level: 75,
+    icon: SiTailwindcss,
   },
   {
-    name: 'javascript',
-    image: "images/vite.svg",
-    level: 5,
-    icon: FaReact,
-
-  },
-  {
-    name: 'java',
+    name: 'JavaScript',
     image: "images/download.jpg",
-    level: 7,
-    icon: FaReact,
-
+    level: 65,
+    icon: SiJavascript,
   },
   {
-    name: 'css',
+    name: 'TypeScript',
     image: "images/download.jpg",
-    level: 70,
-    icon: FaReact,
-
-  }
+    level: 50,
+    icon: SiTypescript,
+  },
+  {
+    name: 'MS Azure',
+    image: "images/download.jpg",
+    level: 35,
+    icon: SiMicrosoftazure,
+  },
+  {
+    name: 'Framer.js',
+    image: "images/download.jpg",
+    level: 55,
+    icon: SiFramer,
+  },
+  {
+    name: 'C#',
+    image: "images/download.jpg",
+    level: 45,
+    icon: SiCsharp,
+  },
+  {
+    name: 'Canva',
+    image: "images/download.jpg",
+    level: 55,
+    icon: SiCanva,
+  },
+  {
+    name: 'Java',
+    image: "images/download.jpg",
+    level: 45,
+    icon: FaJava,
+  },
+  {
+    name: 'Node.js',
+    image: "images/download.jpg",
+    level: 30,
+    icon: FaNodeJs,
+  },
+  {
+    name: 'MySQL',
+    image: "images/download.jpg",
+    level: 60,
+    icon: FaDatabase,
+  },
+  {
+    name: 'Bootstrap',
+    image: "images/download.jpg",
+    level: 65,
+    icon: FaBootstrap,
+  },
+  {
+    name: 'GitHub',
+    image: "images/download.jpg",
+    level: 65,
+    icon: FaGithub,
+  },
+  {
+    name: 'Python',
+    image: "images/download.jpg",
+    level: 25,
+    icon: FaPython,
+  },
+  
 ];
 
 
