@@ -53,8 +53,8 @@ export const projectstempdata = [
     image: "/images/recipeapp.PNG",
     title: "Project Title One (UIUX)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    demo: 'http://egatortutorials.com',
-    github: 'https://github.com/egattor'
+    demo: 'http://.com',
+    github: 'https://github.com/td'
   },
   {
     id: 2,
@@ -62,8 +62,8 @@ export const projectstempdata = [
     image: "/images/mygym.PNG",
     title: "Project Title Two (Frontend)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    demo: 'http://egatortutorials.com',
-    github: 'https://github.com/egattor'
+    demo: 'http://.com',
+    github: 'https://github.com/fy'
   },
   {
     id: 3,
@@ -71,8 +71,8 @@ export const projectstempdata = [
     image: "/images/bootstrapCart.PNG",
     title: "Project Title three",
     desc: "Provident simil",
-    demo: 'http://egatortutorials.com',
-    github: 'https://github.com/egattor'
+    demo: 'http://.com',
+    github: 'https://github.com/ug'
   },
   {
     id: 4,
@@ -80,8 +80,8 @@ export const projectstempdata = [
     // image: "images/vite.svg",
     title: "Project Title three",
     desc: "Provident similProvident similProvident simil",
-    demo: 'http://egatortutorials.com',
-    github: 'https://github.com/egattor'
+    // demo: 'http://.com',
+    github: 'https://github.com/ftu'
   },
   {
     id: 5,
@@ -89,8 +89,8 @@ export const projectstempdata = [
     // image: "images/vite.svg",
     title: "Project Title three",
     desc: "Provident simil",
-    demo: 'http://egatortutorials.com',
-    github: 'https://github.com/egattor'
+    demo: 'http://.com',
+    github: 'https://github.com/y'
   },
   {
     id: 6,
@@ -98,8 +98,8 @@ export const projectstempdata = [
     // image: image1,
     title: "Project Title six (UIUX)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    demo: 'http://egatortutorials.com',
-    github: 'https://github.com/egattor'
+    demo: 'http://.com',
+    github: 'https://github.com/yrd'
   },
   {
     id: 7,
@@ -107,8 +107,8 @@ export const projectstempdata = [
     // image: image1,
     title: "Project Title six (UIUX)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    demo: 'http://egatortutorials.com',
-    github: 'https://github.com/egattor'
+    demo: 'http://.com',
+    github: 'https://github.com/yrd'
   },
 ]
 

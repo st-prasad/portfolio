@@ -33,7 +33,7 @@ const Project = ({project}) => {
         <h4 className='h-16'>{project.title}</h4>
         <p className='max-h-24 overflow-y-auto h-14 border-4 border-[#f0fff0]'>{project.desc}</p>
         <div className="flex gap-[3%] justify-center">
-            <a href={project.demo} className="btn" target="_blank" rel="noopner noreferrer">Demo</a>
+            {project.demo && <a href={project.demo} className="btn" target="_blank" rel="noopner noreferrer">Demo</a>}
             <a href={project.github} className="btn" target="_blank" rel="noopner noreferrer">Gitbub</a>
         </div>
     </Card>

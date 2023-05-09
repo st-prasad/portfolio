@@ -9,7 +9,7 @@ function HeroPage() {
       {/* <div className="heroContainer my-0 mx-auto top-0 bottom-0 absolute flex flex-row items-center justify-between"> */}
       <div className="heroContainer mx-auto flex flex-row items-center justify-between h-[70%] self-center w-10/12">
         {/* border view on hover: <div className="border-4 hover:border-dotted border-transparent hover:border-[#ad98d8] animate-border-radius"> */}
-        <div className="HeroText top-48 flex flex-col ml-5 bg-[#f6f8eb] border-4 hover:border-dotted border-[#ad98d8] animate-border-radius p-[10px]">
+        <div className="HeroText flex flex-col ml-5 bg-[#f6f8eb] border-4 hover:border-dotted border-[#ad98d8] animate-border-radius p-[10px]">
 
           <h1
             className="mb-1 md:mb-3 font-bold text-black-500 font-georgia"
@@ -25,8 +25,8 @@ function HeroPage() {
             creating user-friendly, innovative and functional web applications..
           </p>
         </div>
-        <div className="HeroImg ml-9 overflow-hidden">
-          <img src="myavatar2.png" alt="" className="h-[172x] object-cover" />
+        <div className="HeroImg mx-auto overflow-hidden max-w-[200px] w-full">
+          <img src="myavatar2.png" alt="" className="w-full h-auto border-solid border border-[#d3d3d3] rounded-[100%]" />
         </div>
       </div>
     </div>
