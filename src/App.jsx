@@ -29,7 +29,7 @@ function App() {
     <div className="App">
       <Navbar />
       {/* <Nav /> */}
-      {/* <HeroPage /> */}
+      <HeroPage />
       {/* <Projects/> */}
       {/* <SkillBars/> */}
       {/* <About /> */}
