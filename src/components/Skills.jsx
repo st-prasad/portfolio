@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import React from "react";
-import { skillsArray } from "../ProjectData";
+import { skillsArray } from "../portfolioData";
 import Skill from "./Skill";
 
 const Skills = () => {

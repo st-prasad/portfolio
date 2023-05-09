@@ -17,12 +17,7 @@ const Skill = ({ className, skillItem }) => {
       <div className="w-11/12 rounded border relative group-hover:bg-gray-400">
 
         <div className="skillDiv flex flex-col h-full">
-          {/* <img
-            src={skillItem.image}
-            alt=""
-            className="w-full min-h-0 group-hover:grayscale transition duration-300 ease-in-out object-contain filter flex-grow-[4]"
-            // className="h-full w-full group-hover:grayscale transition duration-300 ease-in-out object-contain filter flex-grow-[4]"
-          /> */}
+
           <Icon
             className="w-full min-h-0 transition duration-300 ease-in-out object-contain filter flex-grow-[4] text-[#191970]"
           />
@@ -31,7 +26,6 @@ const Skill = ({ className, skillItem }) => {
         </div>
 
         <div className="hoverSkillDiv absolute h-[30px] bottom-0 left-0 opacity-0 group-hover:opacity-100 group-hover:bg-white rounded z-0 transition duration-300 ease-in-out "
-        // <div className="hoverSkillDiv absolute h-[30px] top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 group-hover:bg-white rounded z-0 transition duration-300 ease-in-out "
 
         style={{ width: `${skillItem.level}%` }}
         ><h5 className="text-xs">{skillItem.level}</h5>

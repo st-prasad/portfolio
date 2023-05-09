@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    //<nav className="bg-[#d9d9d9] px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+
     <nav className="navComponent shadow-[-3px_12px_8px_-4px_rgba(0,0,0,0.48)] bg-[#d9d9d9] px-2 sm:px-4 py-2.5 fixed w-full z-40 top-0 left-0">
       <div className="container flex items-center justify-between mx-auto w-full md:px-6">
         <div className="linksDiv items-center justify-between w-full [&_a]:text-black">

@@ -1,11 +1,11 @@
 import { useState } from 'react'
 // import projects from '../ProjectData.js'
-import { ProjectData } from '../ProjectData'
+import { ProjectData } from '../portfolioData.js'
 import '../styles/projectComponents.css'
 import Projects from './Projects'
 import ProjectsCategories from './ProjectsCategories'
 
-const Portfolio = () => {
+const ProjectsMainPage = () => {
   const [projects, setProjects] = useState(ProjectData);
 
 
@@ -61,4 +61,4 @@ ProjectData.forEach(project => {
   )
 }
 
-export default Portfolio
+export default ProjectsMainPage
