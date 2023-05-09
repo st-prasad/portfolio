@@ -2,16 +2,16 @@
 // import 'aos/dist/aos.css'
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
-import Contact from './Components/Contact'
-import HeroPage from './Components/HeroPage'
-import Navbar from './Components/Navbar'
+import Contact from './components/Contact'
+import HeroPage from './components/HeroPage'
+import Navbar from './components/Navbar'
 // import Projects from './Components/Projects'
-import Skills from './Components/Skills'
+import Skills from './components/Skills'
 // import SkillBars from './Components/Skillbars'
 // import About from './Components/testing'
 // import Tempbutton from './testprojectscomp/ProjectsCategories'
 // import Card from './testprojectscomp/Card'
-import Testingprojcomp from './testprojectscomp/Testingprojcomp'
+import ProjectsMainPage from './projectComponents/ProjectsMainPage'
 
 
 function App() {
@@ -31,9 +31,9 @@ function App() {
       {/* <Tempbutton /> */}
       {/* <Tempbutton /> */}
       {/* <Card/> */}
-      <Testingprojcomp/>
-      <Contact />
+      <ProjectsMainPage/>
       <Skills />
+      <Contact />
     </div>
   )
 }

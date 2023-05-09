@@ -1,7 +1,7 @@
 import { useState } from 'react'
 // import projects from '../ProjectData.js'
 import { projectstempdata } from '../ProjectData'
-import './portfolio.css'
+import '../styles/projectComponents.css'
 import Projects from './Projects'
 import ProjectsCategories from './ProjectsCategories'
 
@@ -40,9 +40,9 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio" className='bg-[#edebf8]'>
-      <h2>Recent Projects</h2>
-      <p>
-      Check out some of the projects I recently worked on for my clients. Use the buttons to toggle the different categories.
+      <h2 className='text-center'>Some of My Projects</h2>
+      <p className='text-center'>
+      Use the buttons to toggle the  categories.
       </p>
       {/* <div className="container portfolio__container my-0 mx-auto"> */}
       <div className="w-full portfolio__container my-0 mx-auto">

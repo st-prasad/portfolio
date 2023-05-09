@@ -11,7 +11,7 @@ const Skills = () => {
 
   return (
     <motion.div
-      className="flex relative flex-col text-center h-[50vh] mx-auto items-center"
+      className="flex relative flex-col text-center h-full mx-auto items-center"
       initial={{
         x: -200,
         opacity: 0,

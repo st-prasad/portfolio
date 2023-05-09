@@ -1,4 +1,6 @@
 import Card from './Card'
+// import vite.svg as placeholder image from public/images
+import placeholderImg from '/images/vite.svg'
 
 
 const Project = ({project}) => {
@@ -25,7 +27,7 @@ const Project = ({project}) => {
     {/* <Card className="portfolio__project transition ease duration-500" handleClick={handleClick}> */}
     {/* <Card className="portfolio__project animate-scale-in" handleClick={handleClick}> */}
         <div className="portfolio__project-image">
-            <img src={project.image} className="object-cover w-full h-60" alt="Portfolio Project Image" />
+            <img src={project.image ? project.image : placeholderImg}  className="object-cover w-full h-60" alt="Portfolio Project Image" />
             {/* <img src={project.image} className="object-cover w-full max-h-60" alt="Portfolio Project Image" /> */}
         </div>
         <h4 className='h-16'>{project.title}</h4>
