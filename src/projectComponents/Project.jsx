@@ -34,7 +34,7 @@ const Project = ({project}) => {
         <p className='max-h-24 overflow-y-auto h-14 border-4 border-[#f0fff0]'>{project.desc}</p>
         <div className="flex gap-[3%] justify-center">
             {project.demo && <a href={project.demo} className="btn" target="_blank" rel="noopner noreferrer">Demo</a>}
-            <a href={project.github} className="btn" target="_blank" rel="noopner noreferrer">Gitbub</a>
+            <a href={project.github} className="btn" target="_blank" rel="noopener noreferrer">Gitbub</a>
         </div>
     </Card>
 

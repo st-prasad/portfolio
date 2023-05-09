@@ -46,10 +46,10 @@ import { TbBrandNextjs } from 'react-icons/tb';
 // ]
 
 
-export const projectstempdata = [
+export const ProjectData = [
   {
     id: 1,
-    category: 'uiux',
+    category: ['backend', 'frontend', 'sql'],
     image: "/images/recipeapp.PNG",
     title: "Project Title One (UIUX)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
@@ -58,7 +58,7 @@ export const projectstempdata = [
   },
   {
     id: 2,
-    category: 'frontend',
+    category: ['backend'],
     image: "/images/mygym.PNG",
     title: "Project Title Two (Frontend)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
@@ -67,7 +67,7 @@ export const projectstempdata = [
   },
   {
     id: 3,
-    category: 'frontend',
+    category: ['backend', 'frontend', 'sql'],
     image: "/images/bootstrapCart.PNG",
     title: "Project Title three",
     desc: "Provident simil",
@@ -76,7 +76,7 @@ export const projectstempdata = [
   },
   {
     id: 4,
-    category: 'frontend',
+    category: ['backend', 'frontend', 'sql'],
     // image: "images/vite.svg",
     title: "Project Title three",
     desc: "Provident similProvident similProvident simil",
@@ -85,7 +85,7 @@ export const projectstempdata = [
   },
   {
     id: 5,
-    category: 'uiux',
+    category: ['backend', 'frontend', 'sql'],
     // image: "images/vite.svg",
     title: "Project Title three",
     desc: "Provident simil",
@@ -94,7 +94,7 @@ export const projectstempdata = [
   },
   {
     id: 6,
-    category: 'uiux',
+    category: ['backend', 'frontend', 'sql'],
     // image: image1,
     title: "Project Title six (UIUX)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
@@ -103,7 +103,7 @@ export const projectstempdata = [
   },
   {
     id: 7,
-    category: 'uiux',
+    category: ['backend', 'frontend', 'sql'],
     // image: image1,
     title: "Project Title six (UIUX)",
     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
