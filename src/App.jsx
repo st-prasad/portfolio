@@ -5,7 +5,7 @@
 // import Contact from './components/Contact'
 // import Contact from 'src/components/Contact'
 // import HeroPage from 'src/components/HeroPage'
-import Navbar from 'src/components/Navbar'
+import Navbar from './components/Navbar'
 // import Projects from './Components/Projects'
 // import Skills from 'src/components/Skills'
 // import Card from './projectComponents/Card'
