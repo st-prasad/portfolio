@@ -69,7 +69,7 @@ export const ProjectData = [
     id: 3,
     category: ['backend', 'frontend', 'ui/ux'],
     image: "/images/bootstrapCart.PNG",
-    title: "E-Commerse web app with stripe payment gateway",
+    title: "E-Commerse web-app",
     desc: "This project is an e-commerce store with a backend built using Node.js, Express, and Stripe.The frontend is built using ReactJS and styled using Bootstrap. The application allows users to add items to their cart and checkout using Stripe",
     github: 'https://github.com/st-prasad/react-stripe-store-frontend'
   },
