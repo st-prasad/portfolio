@@ -2,7 +2,7 @@
 // import 'aos/dist/aos.css'
 // import { useEffect, useState } from 'react'
 // import reactLogo from './assets/react.svg'
-import Contact from './components/Contact'
+// import Contact from './components/Contact'
 import HeroPage from './components/HeroPage'
 import Navbar from './components/Navbar'
 // import Projects from './Components/Projects'
@@ -34,7 +34,7 @@ function App() {
       {/* <Card/> */}
       <ProjectsMainPage/>
       <Skills />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   )
 }
