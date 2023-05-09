@@ -14,7 +14,7 @@
 // import Tempbutton from './testprojectscomp/ProjectsCategories'
 // import Card from './testprojectscomp/Card'
 // import Nav from './portfolioComponents/Nav'
-import HeroPage from './components/HeroPage'
+import HeroPage from './portfolioComponents/HeroPage'
 import Navbar from './portfolioComponents/Navbar'
 import ProjectsMainPage from './projectComponents/ProjectsMainPage'
 
