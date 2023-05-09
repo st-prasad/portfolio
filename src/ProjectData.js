@@ -49,36 +49,35 @@ import { TbBrandNextjs } from 'react-icons/tb';
 export const ProjectData = [
   {
     id: 1,
-    category: ['backend', 'frontend', 'sql'],
+    category: ['backend', 'frontend'],
     image: "/images/recipeapp.PNG",
-    title: "Project Title One (UIUX)",
-    desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    demo: 'http://.com',
-    github: 'https://github.com/td'
+    title: "recipe app with spoonacular api",
+    desc: "The application is built using ReactJS and styled using styled-components. React Router is used to handle navigation within the application. The application allows users to search for recipes, and provides a list of results. Users can click on a recipe to view its details. Hosted on github pages.",
+    demo: 'https://st-prasad.github.io/recipe-app/',
+    github: 'https://github.com/st-prasad/recipe-app'
   },
   {
     id: 2,
-    category: ['backend'],
+    category: ['frontend', 'ui/ux'],
     image: "/images/mygym.PNG",
-    title: "Project Title Two (Frontend)",
-    desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    demo: 'http://.com',
-    github: 'https://github.com/fy'
+    title: "landing page for a gym",
+    desc: "The project is a gym website/landing page that consists of two pages. The first page is a homepage that introduces the gym and its services, while the second page is a contact form for users to get in touch with the gym. Hosted with continuous development",
+    demo: 'https://gymnation.quest/',
+    github: 'https://github.com/st-prasad/gym-site'
   },
   {
     id: 3,
-    category: ['backend', 'frontend', 'sql'],
+    category: ['backend', 'frontend', 'ui/ux'],
     image: "/images/bootstrapCart.PNG",
-    title: "Project Title three",
-    desc: "Provident simil",
-    demo: 'http://.com',
-    github: 'https://github.com/ug'
+    title: "E-Commerse web app with stripe payment gateway",
+    desc: "This project is an e-commerce store with a backend built using Node.js, Express, and Stripe.The frontend is built using ReactJS and styled using Bootstrap. The application allows users to add items to their cart and checkout using Stripe",
+    github: 'https://github.com/st-prasad/react-stripe-store-frontend'
   },
   {
     id: 4,
-    category: ['backend', 'frontend', 'sql'],
+    category: ['frontend', 'ui/ux'],
     // image: "images/vite.svg",
-    title: "Project Title three",
+    title: "portfolio website",
     desc: "Provident similProvident similProvident simil",
     // demo: 'http://.com',
     github: 'https://github.com/ftu'
