@@ -13,7 +13,8 @@
 // import About from './Components/testing'
 // import Tempbutton from './testprojectscomp/ProjectsCategories'
 // import Card from './testprojectscomp/Card'
-import Nav from './portfolioComponents/Nav'
+// import Nav from './portfolioComponents/Nav'
+import Navbar from './portfolioComponents/Navbar'
 import ProjectsMainPage from './projectComponents/ProjectsMainPage'
 
 
@@ -26,8 +27,8 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Navbar /> */}
-      <Nav />
+      <Navbar />
+      {/* <Nav /> */}
       {/* <HeroPage /> */}
       {/* <Projects/> */}
       {/* <SkillBars/> */}
