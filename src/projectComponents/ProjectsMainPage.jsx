@@ -43,7 +43,7 @@ ProjectData.forEach(project => {
   
 
   return (
-    <section id="portfolio" className='bg-[#edebf8]'>
+    <section id="projects" className='bg-[#edebf8]'>
       <h2 className='text-center'>Some of My Projects</h2>
       <p className='text-center'>
       Use the buttons to toggle the  categories.

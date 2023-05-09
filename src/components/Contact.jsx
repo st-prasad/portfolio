@@ -34,17 +34,10 @@ const Contact = () => {
   };
 
   return (
-    <section className="p-6 bg-[#74828c] flex items-center h-screen justify-between">
-      <div className="w-[35vw] flex border justify-around items-start flex-col">
-        <h1 className="cstmh2 font-helvetica font-extralight italic">Please use the form  to get in touch with me</h1>
-        {/* <div>
-          <h1 className="cstmh4 font-helvetica font-light italic mt-28">
-            Contact Me ital
-          </h1>
-          <h1 className="cstmh4 font-montserrat">Contact Me ital</h1>
-        </div> */}
-        {/* <h1 className='h'>details</h1> */}
-        {/* <h1 className='animate-[wave_5s_ease-in-out_2]'>details</h1> */}
+    <section className="p-6 bg-[#74828c] flex items-center h-screen justify-around" id="contact">
+      <div className="w-[35vw] flex justify-around items-start flex-col">
+        <h1 className="cstmh2 font-helvetica font-extralight italic">Get in touch with me</h1>
+
       </div>
 
       {/* form */}

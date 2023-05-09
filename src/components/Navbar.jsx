@@ -19,25 +19,25 @@ function Navbar() {
             </li>
             <li className="w-[20vw] sm:w-auto">
               <a
-                href="#"
+                href="#projects"
                 className="block py-2 pl-3 pr-4 hover:bg-gray-100 md:p-3
                 rounded-lg border-b-4 border-[#a9a9a9] hover:border-b-4 hover:border-[gray] focus:border-b-4 focus:border-[black] focus:bg-gray-100"
               >
-                <h4 className="text-sm">ABOUT</h4>
+                <h4 className="text-sm">Projects</h4>
               </a>
             </li>
             <li className="w-[20vw] sm:w-auto">
               <a
-                href="#"
+                href="#tech-stack"
                 className="block py-2 pl-3 pr-4 hover:bg-gray-100 md:p-3
                 rounded-lg border-b-4 border-[#a9a9a9] hover:border-b-4 hover:border-[gray] focus:border-b-4 focus:border-[black] focus:bg-gray-100"
               >
-                <h4 className="text-sm">SERVICES</h4>
+                <h4 className="text-sm">My tech-stack</h4>
               </a>
             </li>
             <li className="w-[20vw] sm:w-auto">
               <a
-                href="#"
+                href="#contact"
                 className="block py-2 pl-3 pr-4 hover:bg-gray-100 md:p-3
                 rounded-lg border-b-4 border-[#a9a9a9] hover:border-b-4 hover:border-[gray] focus:border-b-4 focus:border-[black] focus:bg-gray-100"
               >
