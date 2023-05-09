@@ -14,8 +14,12 @@
 // import Tempbutton from './testprojectscomp/ProjectsCategories'
 // import Card from './testprojectscomp/Card'
 // import Nav from './portfolioComponents/Nav'
+import Contact from './portfolioComponents/Contact'
 import HeroPage from './portfolioComponents/HeroPage'
 import Navbar from './portfolioComponents/Navbar'
+import Skills from './portfolioComponents/Skills'
+import Card from './projectComponents/Card'
+import Projects from './projectComponents/Projects'
 import ProjectsMainPage from './projectComponents/ProjectsMainPage'
 
 
@@ -31,15 +35,15 @@ function App() {
       <Navbar />
       {/* <Nav /> */}
       <HeroPage />
-      {/* <Projects/> */}
+      <Projects/>
       {/* <SkillBars/> */}
       {/* <About /> */}
       {/* <Tempbutton /> */}
       {/* <Tempbutton /> */}
-      {/* <Card/> */}
+      <Card/>
       <ProjectsMainPage/>
-      {/* <Skills /> */}
-      {/* <Contact /> */}
+      <Skills />
+      <Contact />
     </div>
   )
 }
