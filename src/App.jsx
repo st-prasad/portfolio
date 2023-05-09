@@ -6,7 +6,7 @@
 // import Contact from 'src/components/Contact'
 // import HeroPage from 'src/components/HeroPage'
 // import Navbar from './components/Navbar'
-import Button from './projectComponents/CategoryButton'
+import Navbar from './projectComponents/Navbar'
 // import Projects from './Components/Projects'
 // import Skills from 'src/components/Skills'
 // import Card from './projectComponents/Card'
@@ -26,8 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <Button />
-      {/* <Navbar /> */}
+      <Navbar />
       {/* <HeroPage /> */}
       {/* <Projects/> */}
       {/* <SkillBars/> */}
