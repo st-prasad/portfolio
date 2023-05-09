@@ -1,29 +1,3 @@
-// import React, { useState } from "react";
-
-// function Navbar() {
-
-//   return (
-//     //<nav className="bg-[#d9d9d9] px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
-//     <nav className="shadow-[-3px_12px_8px_-4px_rgba(0,0,0,0.48)] bg-[#d9d9d9] px-2 sm:px-4 py-2.5 fixed w-full z-40 top-0 left-0">
-//       <div className="container flex items-center justify-between mx-auto w-4/6">
-//         <h1>tharindu</h1>
-//         <div className="menu" >
-//           <a href="#">Home</a>
-//           <a href="#">about</a>
-//           <a href="#">pojects</a>
-//           <a href="#">contact</a>
-//         </div>
-
-//         <div className="logoDiv">
-//           <img src="vite.svg" alt="" className="h-8 w-8" />
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// }
-
-// export default Navbar;
-
 import React from "react";
 
 function Navbar() {
