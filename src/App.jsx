@@ -3,12 +3,12 @@
 // import { useEffect, useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import Contact from './components/Contact'
-import Contact from 'src/components/Contact'
-import HeroPage from 'src/components/HeroPage'
-import Navbar from 'src/components/Navbar'
+// import Contact from 'src/components/Contact'
+// import HeroPage from 'src/components/HeroPage'
+// import Navbar from 'src/components/Navbar'
 // import Projects from './Components/Projects'
-import Skills from 'src/components/Skills'
-import Card from './projectComponents/Card'
+// import Skills from 'src/components/Skills'
+// import Card from './projectComponents/Card'
 // import SkillBars from './Components/Skillbars'
 // import About from './Components/testing'
 // import Tempbutton from './testprojectscomp/ProjectsCategories'
@@ -25,8 +25,8 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <HeroPage />
+      {/* <Navbar /> */}
+      {/* <HeroPage /> */}
       {/* <Projects/> */}
       {/* <SkillBars/> */}
       {/* <About /> */}
@@ -34,8 +34,8 @@ function App() {
       {/* <Tempbutton /> */}
       {/* <Card/> */}
       <ProjectsMainPage/>
-      <Skills />
-      <Contact />
+      {/* <Skills /> */}
+      {/* <Contact /> */}
     </div>
   )
 }
