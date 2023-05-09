@@ -6,7 +6,6 @@
 // import Contact from 'src/components/Contact'
 // import HeroPage from 'src/components/HeroPage'
 // import Navbar from './components/Navbar'
-import Card from './projectComponents/Card'
 // import Projects from './Components/Projects'
 // import Skills from 'src/components/Skills'
 // import Card from './projectComponents/Card'
@@ -14,6 +13,7 @@ import Card from './projectComponents/Card'
 // import About from './Components/testing'
 // import Tempbutton from './testprojectscomp/ProjectsCategories'
 // import Card from './testprojectscomp/Card'
+import Nav from './portfolioComponents/Nav'
 import ProjectsMainPage from './projectComponents/ProjectsMainPage'
 
 
@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar /> */}
-      <Card />
+      <Nav />
       {/* <HeroPage /> */}
       {/* <Projects/> */}
       {/* <SkillBars/> */}
