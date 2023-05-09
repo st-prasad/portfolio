@@ -17,14 +17,6 @@ const ProjectsCategories = ({uniqueCategoryLabelsArray, onFilterProjectsSetter})
         {
             uniqueCategoryLabelsArray.map(categoryLabel => (
 
-                // console.log("categoryItem"+ categoryItem);
-
-                // <button key={category} category={category} onChangeCategory={() => changeCategoryHandler(category)} className={`btn cat__btn ${activeCategory == category ? 'primary' : 'white'}`}/>
-                // <CategoryButton key={category} category={category} onChangeCategory={() => changeCategoryHandler(category)} className={`btn cat__btn ${activeCategory == category ? 'primary' : 'white'}`}/>
-                
-                // category is inique, so passed to key
-
-                // <CategoryButton key={categoryItem} categoryItem={categoryItem} onChangeCategory={() => changeCategoryHandler(categoryItem)} className={`btn cat__btn ${activeCategory == categoryItem ? 'primary' : 'white'}`}/>
 
                 <CategoryButton
                 key={categoryLabel} // Unique identifier for the component

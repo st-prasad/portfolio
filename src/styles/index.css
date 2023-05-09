@@ -79,6 +79,12 @@
     @apply border-b-4 border-[#a9a9a9];
   }
 
+  .formClass label {
+    @apply font-helvetica text-gray-700;
+  }
+  .formClass input {
+    @apply font-georgia font-bold text-black;
+  }
 
 }
 

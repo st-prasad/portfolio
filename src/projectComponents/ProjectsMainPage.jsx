@@ -21,10 +21,7 @@ ProjectData.forEach(project => {
   });
 });
 
-//   const uniqueCategoryLabelsSet = new Set(categoryLabels);
-//   uniqueCategoryLabelsSet.add("all")
-// //   const uniqueCategories = ["all", ...new Set(categories)];
-//   const uniqueCategoryLabelsArray = [...uniqueCategoryLabelsSet];
+
   console.log(uniqueCategoryLabelsArray)
   
   const filteredProjectsSetter = (categoryLabel) => {
@@ -36,7 +33,7 @@ ProjectData.forEach(project => {
 
     // The filter() method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
 
-    // const filteredProjects = ProjectData.filter(items => items.category === categoryLabel);
+
     const filteredProjects = ProjectData.filter(items => items.category.includes(categoryLabel));
 
     setProjects(filteredProjects);

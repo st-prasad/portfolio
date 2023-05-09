@@ -36,26 +36,26 @@ const Contact = () => {
   return (
     <section className="p-6 bg-[#74828c] flex items-center h-screen justify-between">
       <div className="w-[35vw] flex border justify-around items-start flex-col">
-        <h1 className="cstmh2 font-georgia alig">Contact Me georg</h1>
-        <div>
+        <h1 className="cstmh2 font-helvetica font-extralight italic">Please use the form  to get in touch with me</h1>
+        {/* <div>
           <h1 className="cstmh4 font-helvetica font-light italic mt-28">
             Contact Me ital
           </h1>
-          <h1 className="cstmh4 font-helvetica">Contact Me ital</h1>
-        </div>
+          <h1 className="cstmh4 font-montserrat">Contact Me ital</h1>
+        </div> */}
         {/* <h1 className='h'>details</h1> */}
         {/* <h1 className='animate-[wave_5s_ease-in-out_2]'>details</h1> */}
       </div>
 
       {/* form */}
       <form
-        className="border top-3 container w-[50vw] p-8 rounded-md shadow dark:bg-gray-900 flex flex-col content-between"
+        className="formClass font-georgia border top-3 container w-[50vw] p-8 rounded-md shadow dark:bg-gray-900 flex flex-col content-between"
         onSubmit={handleSubmit(onSubmit)}
         ref={form}
       >
         <div className="namesDiv flex flex-row justify-center gap-[1vw]">
           <div className="fName w-full">
-            <label className=" mb-1 ml-2">*f Name</label>
+            <label className="mb-1 ml-2">*first Name</label>
 
             <input
               name="fName"
@@ -67,7 +67,7 @@ const Contact = () => {
           </div>
 
           <div className="lName w-full">
-            <label className=" mb-1 ml-2">l Name</label>
+            <label className=" mb-1 ml-2">last Name</label>
 
             <input
               name="lName"
@@ -134,7 +134,7 @@ const Contact = () => {
           <input
             id="name"
             type="submit"
-            className=" text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            className="font-georgia font-bold text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-lg px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
           />
 
         </div>

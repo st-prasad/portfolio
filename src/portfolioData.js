@@ -76,37 +76,10 @@ export const ProjectData = [
   {
     id: 4,
     category: ['frontend', 'ui/ux'],
-    image: "images/vite.svg",
+    image: "/images/portfolio.PNG",
     title: "portfolio website",
     desc: "Built using minimum ammount of libraries. The portfolio features a modern and responsive design, css animations, and a dynamic project gallery with category filtering. The contact form is integrated with EmailJS.",
     github: 'https://github.com/ftu'
-  },
-  {
-    id: 5,
-    category: ['backend', 'frontend', 'sql'],
-    // image: "images/vite.svg",
-    title: "Project Title three",
-    desc: "Provident simil",
-    demo: 'http://.com',
-    github: 'https://github.com/y'
-  },
-  {
-    id: 6,
-    category: ['backend', 'frontend', 'sql'],
-    // image: image1,
-    title: "Project Title six (UIUX)",
-    desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    demo: 'http://.com',
-    github: 'https://github.com/yrd'
-  },
-  {
-    id: 7,
-    category: ['backend', 'frontend', 'sql'],
-    // image: image1,
-    title: "Project Title six (UIUX)",
-    desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    demo: 'http://.com',
-    github: 'https://github.com/yrd'
   },
 ]
 
