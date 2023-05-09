@@ -76,9 +76,9 @@ export const ProjectData = [
   {
     id: 4,
     category: ['frontend', 'ui/ux'],
-    // image: "images/vite.svg",
+    image: "images/vite.svg",
     title: "portfolio website",
-    desc: "Provident similProvident similProvident simil",
+    desc: "built using React, Vite, and Tailwind CSS. The portfolio features a modern and responsive design, animated transitions using Framer Motion, and a dynamic project gallery with category filtering. The contact form is integrated with EmailJS for seamless communication with visitors.",
     // demo: 'http://.com',
     github: 'https://github.com/ftu'
   },
